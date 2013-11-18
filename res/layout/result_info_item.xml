@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/app_manager"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+
+        <ImageView
+            android:id="@+id/hasread"
+            style="@style/StatusImage.addMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/read"
+            android:visibility="visible" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/notread"
+            style="@style/StatusImage.addMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/notread"
+            android:visibility="gone" >
+        </ImageView>
+        
+                <ImageView
+            android:id="@+id/zhanwei"
+            style="@style/StatusImage.addMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/notread"
+            android:visibility="invisible" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/app_test_type"
+            style="@style/MenuTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/zhanwei"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:text="CPU测试" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/app_test_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dip"
+            android:text="2013-03-09" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/list_item_right_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/nextpage" >
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

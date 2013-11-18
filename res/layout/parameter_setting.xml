@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+     <include
+        android:id="@+id/title_layout"
+        layout="@layout/title" />
+    
+      <RelativeLayout
+        android:id="@+id/testTimeLayout"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        <TextView
+            android:id="@+id/testTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:paddingLeft="10dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:textSize="18dip"
+            android:text="@string/detail_test_time" />
+        <EditText 
+            android:id="@+id/settingTestTimeEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/testTimeTextView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:inputType="phone"
+            android:background="@null"
+            android:singleLine="true" />
+    </RelativeLayout>
+    
+       <RelativeLayout
+        android:id="@+id/intervalTimeLayout"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        <TextView
+            android:id="@+id/intervalTimeTextView"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:paddingLeft="10dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:textSize="18dip"
+            android:text="@string/test_refresh_time" />
+        <EditText 
+            android:id="@+id/settingIntervalTimeEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/intervalTimeTextView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:inputType="phone"
+            android:background="@null"
+            android:singleLine="true" />
+    </RelativeLayout>
+    
+</LinearLayout>

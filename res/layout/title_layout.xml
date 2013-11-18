@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 作者：伍孝权 自定义标题布局，通用的标题布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_linearlayout_bg"
+    style="@style/TitleLayout"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+    <!-- 左边按钮 尖角 -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dip" >
+
+        <ImageView
+            android:id="@+id/title_left_btn"
+            style="@style/TitleButtonStyle"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="0dip"
+            android:singleLine="true"
+            android:src="@drawable/navigation_back"
+            android:visibility="visible" >
+
+        </ImageView>
+    </RelativeLayout>
+
+
+    <!-- 中间标题 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:singleLine="true" >
+
+        <TextView
+            android:id="@+id/title_txt"
+            style="@style/MenuNavigationTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxWidth="200dip"
+            android:singleLine="true" 
+            android:text="系统管理">
+        </TextView>
+    </LinearLayout>
+
+    <!-- 右边按钮 -->
+
+    <ImageView
+        android:id="@+id/title_right_btn"
+        style="@style/TitleButtonStyle"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="0dip"
+        android:singleLine="true"
+        android:src="@drawable/navigation_accept"
+        android:visibility="visible" >
+
+    </ImageView>
+
+</LinearLayout>

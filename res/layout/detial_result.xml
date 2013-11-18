@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title" />
+    
+    <RelativeLayout
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+         <TextView
+             android:id="@+id/app_label"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="25dip"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="3"
+             android:paddingLeft="10dip"
+             android:singleLine="true"
+             android:text="测试程序"
+             android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@id/app_label"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="UMS"
+            android:textSize="18dip" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/app_list_item"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        
+         <TextView
+             android:id="@+id/app_time"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="25dip"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="3"
+             android:paddingLeft="10dip"
+             android:singleLine="true"
+             android:text="测试时长"
+             android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/test_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@id/app_time"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="10s"
+            android:textSize="18dip" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/app_list_item"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        
+         <TextView
+             android:id="@+id/app_label"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="25dip"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="3"
+             android:paddingLeft="10dip"
+             android:singleLine="true"
+             android:text="测试频率"
+             android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@id/app_label"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="10s"
+            android:textSize="18dip" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/app_list_item"
+        style="@style/addMarginMenuLayout" >
+        
+         <TextView
+             android:id="@+id/app_label"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="25dip"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="3"
+             android:paddingLeft="10dip"
+             android:singleLine="true"
+             android:text="测试结果"
+             android:textColor="#ADADAD"
+             android:textSize="17dip" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/app_list_item"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        
+         <TextView
+             android:id="@+id/app_label"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="25dip"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="3"
+             android:paddingLeft="10dip"
+             android:singleLine="true"
+             android:text="平均使用功率"
+             android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@id/app_label"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="UMS"
+            android:textSize="18dip" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/app_list_item"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        
+         <TextView
+             android:id="@+id/app_label"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="25dip"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="3"
+             android:paddingLeft="10dip"
+             android:singleLine="true"
+             android:text="最大CPU使用率"
+             android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@id/app_label"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="UMS"
+            android:textSize="18dip" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/app_list_item"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        
+         <TextView
+             android:id="@+id/app_label"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="25dip"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="3"
+             android:paddingLeft="10dip"
+             android:singleLine="true"
+             android:text="测试结论"
+             android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@id/app_label"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:background="@null"
+            android:text="UMS"
+            android:textSize="18dip" />
+    </RelativeLayout>
+
+</LinearLayout>

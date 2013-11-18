@@ -1,0 +1,58 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+cn.robotium.AppListInfo:
+    java.lang.String userNumber
+    java.lang.String sysNumber
+    18:18:public java.lang.String getUserNumber()
+    21:22:public void setUserNumber(java.lang.String)
+    25:25:public java.lang.String getSysNumber()
+    28:29:public void setSysNumber(java.lang.String)
+cn.robotium.BuildConfig
+cn.robotium.CpuInfo:
+    private double resTotalCPU
+cn.robotium.MemoryInfo:
+    52:55:public void totalMemory(android.content.Context)
+    58:61:public void javaObjectHeapMeory(android.content.Context)
+cn.robotium.R
+cn.robotium.R$attr
+cn.robotium.R$color
+cn.robotium.R$drawable
+cn.robotium.R$id
+cn.robotium.R$layout
+cn.robotium.R$menu
+cn.robotium.R$string
+cn.robotium.R$style
+cn.robotium.adapter.ExAdapter:
+    java.util.List userAppList
+    java.util.List sysAppList
+cn.robotium.bean.TestRecordBean:
+    51:75:public TestRecordBean(int,java.lang.String,java.lang.String,long,long,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)
+cn.robotium.bean.TestType
+cn.robotium.database.DBHelper:
+    private cn.robotium.bean.TestRecordBean bean
+    82:93:public java.util.List selectAllData()
+    103:108:public cn.robotium.bean.TestRecordBean selectDataById(int)
+cn.robotium.test.AssistantJunitTest
+cn.robotium.test.MonkeyJunitTest
+cn.robotium.ui.AppManagerActivity:
+    private java.lang.String testType
+cn.robotium.ui.DetailResultInfoActivity:
+    private android.widget.ListView historyListView
+cn.robotium.ui.MainActivity:
+    243:246:private void clearNotification()
+cn.robotium.ui.ResultInfoActivity:
+    private android.widget.RelativeLayout managerLayout
+    private android.widget.RelativeLayout testLayout
+    private android.widget.RelativeLayout historyLayout
+    private java.lang.String title
+    239:242:public void notifDataReflesh()
+cn.robotium.ui.TestTypeActivity:
+    private android.content.Intent intentForNextPage
+cn.robotium.utils.AndImageUtils
+cn.robotium.utils.MyAppFloatWindow
+cn.robotium.utils.Sleeper:
+    14:15:public void sleep()
+    23:24:public void sleepMini()
+cn.robotium.utils.TimeBean
+cn.robotium.utils.VerifyUtil:
+    8:8:public VerifyUtil()

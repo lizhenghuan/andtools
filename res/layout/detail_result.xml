@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/detail_applabel"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/app_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:text="手机助手"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/detail_test_duration"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/test_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:text="10s"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/test_refresh_rate"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/test_refresh_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:text="2s"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="1dip"
+                android:background="#EDEDED"
+                android:orientation="vertical"
+                android:paddingLeft="2dip"
+                android:paddingRight="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/test_result_title"
+                    android:textSize="18dip" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/avg_cpu_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/cpu_avg_use_text"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/cpu_avg_use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="150dp"
+                    android:text="23%"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/max_cpu_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/cpu_max_use_text"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/cpu_max_use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="150dp"
+                    android:text="33%"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/avg_memory_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/memory_avg_use_text"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/memory_avg_use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="150dp"
+                    android:text="19M"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/max_memory_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/memory_max_use_text"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/memory_max_use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="150dp"
+                    android:text="20M"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/net_total_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/net_total_use_text"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/net_total_use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:text="33KB"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="1dip"
+                android:background="#EDEDED"
+                android:orientation="vertical"
+                android:paddingLeft="2dip"
+                android:paddingRight="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dip"
+                    android:paddingLeft="10dip"
+                    android:text="@string/test_result_text"
+                    android:textSize="18dip" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/newlist_item_corner_bg_xml" >
+                <EditText
+                    android:id="@+id/test_result_report"
+                   android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:ems="10"
+                     android:background="@null"
+                    android:textSize="18dip" />
+          </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

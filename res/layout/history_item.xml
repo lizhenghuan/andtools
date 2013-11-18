@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/app_list_item"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/moren" />
+
+        <TextView
+            android:id="@+id/app_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@id/app_icon"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="UMS"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/not_read_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/app_label"
+            android:visibility="invisible"
+            android:background="@drawable/message_indicator" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="30dip"
+            android:text="2012/7/29" />
+
+        <ImageView
+            android:id="@+id/list_item_right_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/nextpage" />
+    </RelativeLayout>
+
+</LinearLayout>

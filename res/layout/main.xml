@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/umslayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_lay"
+        layout="@layout/title" />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 程序管理 -->
+
+        <RelativeLayout
+            android:id="@+id/app_manager"
+            style="@style/addMarginMenuLayout"
+            android:background="@drawable/newlist_item_corner_bg_xml">
+           
+            <TextView
+                android:id="@+id/app_manager_textview"
+                style="@style/MenuTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+				android:paddingLeft="10dip"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true"
+                android:text="@string/app_manager" >
+            </TextView>
+             <TextView
+                android:id="@+id/appManagerTextView"
+                style="@style/MenuTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:textColor="#00b168"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/list_item_right_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/nextpage" >
+            </ImageView>
+        </RelativeLayout>
+        
+        
+        <!-- 测试类型-->
+
+        <RelativeLayout
+            android:id="@+id/test_class"
+            style="@style/addMarginMenuLayout"
+            android:background="@drawable/newlist_item_corner_bg_xml" >
+
+		
+            
+            <TextView
+                style="@style/MenuTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+ 				android:paddingLeft="10dip"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dip"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true"
+                android:text="@string/test_class" >
+            </TextView>
+
+             <TextView
+                android:id="@+id/testTypeTextView"
+                style="@style/MenuTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:textColor="#00b168"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true" >
+            </TextView>
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/nextpage" >
+            </ImageView>
+        </RelativeLayout>
+
+        <!--历史记录 -->
+
+        <RelativeLayout
+            android:id="@+id/history"
+            style="@style/addMarginMenuLayout" android:background="@drawable/newlist_item_corner_bg_xml"
+            >
+          
+            <TextView
+                style="@style/MenuTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+            	android:paddingLeft="10dip"
+                android:layout_marginRight="25dip"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true"
+                android:text="@string/history" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/nextpage" >
+            </ImageView>
+
+        </RelativeLayout>
+        
+        <LinearLayout style="@style/LineLayout"></LinearLayout>
+        <LinearLayout style="@style/LineLayout"></LinearLayout>
+      		<Button android:id="@+id/start_test" android:textStyle="bold" android:textSize="17sp"
+				android:layout_marginBottom="10dip" android:text="@string/begin_test"
+				android:background="@drawable/delete_group_bg"
+				style="@style/ButtonStyle" />
+        
+    </LinearLayout>
+
+   
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+      <include
+        android:id="@+id/title_layout"
+        layout="@layout/title" />
+
+    <RelativeLayout
+        android:id="@+id/memoryLayout"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        <TextView
+            android:id="@+id/memoryTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:paddingLeft="10dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:textSize="18dip"
+            android:text="内存测试" >
+        </TextView>
+        <TextView
+                android:id="@+id/memory"
+                style="@style/MenuTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/memoryTest"
+                android:ellipsize="marquee"
+                android:textColor="#00b168"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true" >
+            </TextView>
+        <ImageView
+                android:id="@+id/list_item_right_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/nextpage" >
+            </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cpuLayout"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        <TextView
+            android:id="@+id/cpuTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:paddingLeft="10dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:textSize="18dip"
+            android:text="CPU测试" >
+        </TextView>
+               <TextView
+                android:id="@+id/cpu"
+                style="@style/MenuTextStyle"
+                android:layout_toRightOf="@+id/cpuTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:textColor="#00b168"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true" >
+            </TextView>
+       <ImageView
+                android:id="@+id/list_item_right_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/nextpage" >
+            </ImageView>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/netLayout"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        <TextView
+            android:id="@+id/netTest"
+              android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:paddingLeft="10dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:textSize="18dip"
+            android:text="流量测试" >
+        </TextView>
+               <TextView
+                android:id="@+id/net"
+                style="@style/MenuTextStyle"
+                android:layout_toRightOf="@+id/netTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:textColor="#00b168"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true" >
+            </TextView>
+       <ImageView
+                android:id="@+id/list_item_right_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/nextpage" >
+            </ImageView>
+    </RelativeLayout>
+    
+    <!-- MonkeyTest -->
+     <RelativeLayout
+        android:id="@+id/monkeyLayout"
+        style="@style/addMarginMenuLayout"
+        android:background="@drawable/newlist_item_corner_bg_xml" >
+        <TextView
+            android:id="@+id/monkeyTest"
+              android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:paddingLeft="10dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="3"
+            android:singleLine="true"
+            android:textSize="18dip"
+            android:text="Monkey测试" >
+        </TextView>
+               <TextView
+                android:id="@+id/monkey"
+                style="@style/MenuTextStyle"
+                android:layout_toRightOf="@+id/monkeyTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:textColor="#00b168"
+                android:marqueeRepeatLimit="3"
+                android:singleLine="true" >
+            </TextView>
+       <ImageView
+                android:id="@+id/list_item_right_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/nextpage" >
+            </ImageView>
+    </RelativeLayout>
+</LinearLayout>

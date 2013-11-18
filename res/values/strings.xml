@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="app_name">安测试</string>
+    <string name="networkBtn">网络流量</string>
+    <string name="cpuBtn">CPU监控</string>
+    <string name="memoryBtn">内存监控</string>
+    <string name="exitMenu">退出</string>
+    <string name="textView">Top内容</string>
+    <string name="back">返回</string>
+    <string name="setting_save">保存</string>
+    <string name="app_manager">程序管理</string>
+    <string name="test_class">测试类型</string>
+    <string name="history">历史记录</string>
+    <string name="homepage">AndTools</string>
+    <string name="begin_test">开始测试</string>
+    <string name="use_app">用户应用程序 </string>
+    <string name="system_app">系统应用</string>
+    <string name="app_manager_editText">请选择应用程序</string>
+    <string name="detail_applabel">测试程序:</string>
+    <string name="detail_test_duration">测试时长:</string>
+    <string name="detail_test_time">测试时长(毫秒):</string>
+    <string name="test_refresh_rate">刷新频率:</string>
+    <string name="test_refresh_time">刷新频率(毫秒):</string>
+    <string name="test_result_title">测试结果</string>
+    <string name="cpu_avg_use_text">平均CPU使用率:</string>
+    <string name="cpu_max_use_text">最大CPU使用率:</string>
+    <string name="memory_max_use_text">最大内存使用率:</string>
+    <string name="memory_avg_use_text">平均内存使用率:</string>
+    <string name="net_total_use_text">流量使用:</string>
+    <string name="test_result_text">测试结论:</string>
+    <string name="success_save">保存成功！</string>
+    <string name="cpu_test_type">CPU测试</string>
+    <string name="memory_test_type">内存测试</string>
+    <string name="net_test_type">流量测试</string>
+    <string name="delete_record">删除记录</string>
+    <string name="deleting">删除记录</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="choose_app_toast">请选择所要测试的应用程序</string>
+    <string name="choose_testType_toast">请选择测试类型</string>
+    <string name="contentTitle">测试记录</string>
+    <string name="contentText">已测试完成，请查看。</string>
+    <string name="back_key">再按一次退出</string>
+	<string name="testing">正在测试</string>
+	<string name="isNull_test_duration_or_refresh_rate">测试时长或刷新频率不能为空</string>
+	<string name="back_to_choose_testType">请返回上一页选择测试类型</string>
+	<string name="only_chooseOne_testTpye">只能选择一个测试类型</string>
+	<string name="export">导出</string>
+	<string name="export_title">导出记录</string>
+	<string name="exportting">正在导出</string>
+	<string name="export_success">导出文件成功：mnt/sdcard/AndTools/</string>
+	<string name="sdcard_miss">找不到SDCard</string>
+	<string name="monkey_test">Monkey测试</string>
+	<string name="test_bouts">测试次数:</string>
+	<string name="ignore_timeout">忽略超时:</string>
+	<string name="ignore_crashes">忽略崩溃:</string>
+	<string name="throttle">测试间隔(毫秒):</string>
+	<string name="isNull_test_bouts_or_throttle">测试次数或测试间隔不能为空</string>
+	
+	
+	
+	
+	
+	
+</resources>

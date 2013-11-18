@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_linearlayout_bg"
+    style="@style/TitleLayout"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dip" >
+
+        <Button
+            android:id="@+id/title_left_btn"
+            style="@style/TitleButtonStyle"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="0dip"
+            android:background="@drawable/back_button_selector"
+            android:singleLine="true"
+            android:text="@string/back"
+            android:visibility="invisible" >
+        </Button>
+    </RelativeLayout>
+
+    <!-- 中间标题 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:singleLine="true" >
+
+        <TextView
+            android:id="@+id/title_txt"
+            style="@style/MenuNavigationTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxWidth="200dip"
+            android:singleLine="true" >
+        </TextView>
+    </LinearLayout>
+
+    <!-- 右边按钮 -->
+
+    <Button
+        android:id="@+id/title_right_btn"
+        style="@style/TitleButtonStyle"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="0dip"
+        android:background="@drawable/button_white"
+        android:singleLine="true"
+        android:text="@string/setting_save"
+        android:visibility="invisible" >
+    </Button>
+
+</LinearLayout>

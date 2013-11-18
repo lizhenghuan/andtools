@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#ff888888</color>
+    <color name="text_gray">#999999</color>
+    <color name="black">#313131</color>
+    <color name="bgray">#6a6a6a</color>
+    <color name="green">#2A4302</color>
+    <color name="aas_black">#323232</color>
+    <color name="aas_gray">#000000</color>
+    <color name="aas_blue">#0065c6</color>
+    <color name="aas_green">#00581f</color>
+    <color name="resgiter_black">#4A4A4A</color>
+    <color name="forgot_password_black">#494949</color>
+    <color name="black_list_right">#AAAAAA</color>
+    <!-- 说明文字：包括描述性质的文字 -->
+    <color name="text_color">#47576F</color>
+    <!-- 菜单小标题 -->
+    <color name="menu_small_text">#626262</color>
+    <!-- 邮件中时间显示 内容 -->
+    <color name="onebox_text">#9A9A9A</color>
+    <!-- 背景颜色 -->
+    <!-- 联系人分组列表 #EEEDEE -->
+    <color name="rcs_main_group_bg">#EEEDEF</color>
+    <!-- 已读邮件背景 -->
+    <color name="onebox_item_read_bg">#EEEEEE</color>
+    <!-- 未读邮件背景 -->
+    <color name="onebox_item_unread_bg">#D8DEEF</color>
+    <!-- IM背景 -->
+    <!-- ====================================================Megafon 样式==================================================== -->
+    <color name="contact_group_txt">#808080</color>
+ <!-- 深黑 -->
+    <color name="contact_nick_name_txt">#535353</color>
+ <!-- 黑色 -->
+    <color name="sign_text">#999999</color>
+ <!-- 浅灰 -->
+    <color name="contact_tab_txt">#FFFFFFFF</color>
+ <!-- 白色 -->
+    <color name="friend_bg">#f7f7f7</color>
+    <!-- 菜单内容 -->
+    <color name="menu_text">#555555</color>
+ <!-- 黑色 -->
+    <!-- 菜单左边颜色 -->
+    <color name="menu_left_text">#b3b3b3</color>
+ <!-- 浅灰 -->
+    <color name="login_text_color">#598E04</color>
+ <!-- 浅灰 -->
+    <color name="password_error">#ff0000</color>
+ <!-- 红色 -->
+    <!-- MIX菜单颜色 -->
+    <color name="mix_menu_color">#0dca59</color>
+    <color name="mix_item_color">#a0a0a0</color>
+    <color name="transparent_background">#01000000</color>
+    <color name="translucent_background">#60000000</color>
+    <color name="huise">#CFCFCF</color>
+
+</resources>
