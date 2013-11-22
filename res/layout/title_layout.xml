@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 作者：伍孝权 自定义标题布局，通用的标题布局文件 -->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/title_linearlayout_bg"
     style="@style/TitleLayout"

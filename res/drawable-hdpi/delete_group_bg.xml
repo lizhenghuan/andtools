@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 删除分组按钮背景色  刘长江 -->
+
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_focused="true" android:drawable="@drawable/ums_red_btn_frame_on" />
     <item android:state_pressed="true" android:drawable="@drawable/ums_red_btn_frame_on" />
